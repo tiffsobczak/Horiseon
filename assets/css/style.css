@@ -8,6 +8,26 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*header style starts*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +60,9 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/* Header Style ENDS*/
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*HERO IMAGE*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +72,8 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content-container {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* Benefits Horiseon Provides START*/
 .benefits-container {
     margin-right: 20px;
     padding: 20px;
@@ -101,7 +100,15 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/*Benefits Horiseon provides END*/
 
+
+/* What Horiseon Does -Content START*/
+.content-container {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 .content-item {
     margin-bottom: 20px;
     padding: 50px;
@@ -115,11 +122,11 @@ p {
     max-height: 200px;
 }
 
-
 .content-item h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 
 .footer {
     padding: 30px;
